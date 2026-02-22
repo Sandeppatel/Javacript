@@ -1,0 +1,63 @@
+
+/* @font-face {
+    font-family: ;
+    src: url();
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+ height: 100%;
+ width: 100%;
+ background-color: bisque;
+ display: flex;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    height:100%;
+    width: 50%;
+    padding: 150px;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    /* margin: 40px; */
+    
+}
+.container h1{
+    cursor: pointer;
+    
+}
+.container h4{
+    font-size: 40px;
+    color: indigo;
+    margin-bottom: 20px;
+    line-height: 35px;
+    
+}
+
+.cantainer1{
+    height:100%;
+    width: 50%;
+    padding: 10px;;
+    background-color: indigo;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cantainer1 p{
+   padding: 60px;
+}
+.cantainer1 img{
+     border-radius: 10px;
+}
